@@ -1,0 +1,26 @@
+{
+    "extends": [
+      "eslint:recommended",
+      "plugin:vue/essential"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    },
+    "plugins": [
+      "vue"
+    ],
+    "settings": {
+      "import/resolver": {
+        "node": {
+          "extensions": [".js", ".jsx", ".ts", ".tsx", ".vue"]
+        }
+      }
+    },
+    "requireConfigFile": false
+  }
